@@ -1,7 +1,7 @@
 {
   "name": "newrepo",
   "version": "1.0.0",
-  "description": "Starter project for CSE 340",
+  "description": "Starter project for newrepo",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
