@@ -11,6 +11,14 @@ const app = express()
 const static = require("./routes/static")
 
 /* ***********************
+ * Set up EJS and Express Layouts
+ *************************/
+app.set('view engine', 'ejs')
+app.use(expressLayouts)
+app.set('layout', 'layouts/layout')
+
+
+/* ***********************
  * Routes
  *************************/
 app.use(static)
